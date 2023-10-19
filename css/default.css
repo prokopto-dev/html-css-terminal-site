@@ -1,0 +1,23 @@
+body{
+    background: black;
+    background-size: cover;
+    color: #4AF626;
+    font-family: VT323, Courier, monospace;
+  }
+  .container{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0;
+  }
+  .prompt0{
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      font-size: 2rem;
+  }
+  @font-face {
+    font-family: VT323;
+    src: url('../fonts/VT323-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 800;
+}

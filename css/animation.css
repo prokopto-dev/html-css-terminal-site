@@ -1,0 +1,26 @@
+@keyframes show_hidden {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+@keyframes create_cursor {
+    from {border-right: .16em hidden #4AF626;}
+    to {border-right: .16em solid #4AF626;}
+}
+
+@keyframes hide_cursor {
+    from {border-right: .16em solid #4AF626;}
+    to {border-right: none;}
+}
+
+@keyframes blinking {
+    from { border-color: transparent}
+    to { border-color: #4AF626; }
+  }
+
+@keyframes typing {
+  0% { width: 0%; border-color: transparent;}
+  1% { width: 1%; border-color: #4AF626;}
+  100% { width: 100%;
+border-right: hidden; }
+}
